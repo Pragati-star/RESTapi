@@ -1,0 +1,44 @@
+mongodb - database
+1. is not a sequential database
+2. save data is json format
+3. it helps to save unstructured data.
+
+example : database student
+| Roll No. | English | Hindi | Computer |
+|    1     |    50   |       |    90    |
+|    2     |         |   80  |          |
+|    3     |    70   |       |    56    |
+|    4     |         |       |    66    |
+
+wasting spaces...
+ mongodb format
+ {
+    {
+        roll no. : 1,
+        English : 50,
+        Computer : 90
+    },
+    {
+        roll no. : 2,
+        Hindi : 80
+    },
+    {
+        roll no. : 3,
+        English : 70,
+        Computer : 56
+    },
+    {
+        roll no. : 4,
+        Computer : 66
+    }
+ }
+
+terminologies
+sql               nosql
+database          database
+table             collection
+row               Document
+select            find
+insert/create     insert
+UPDATE            UPDATE
+delete            remove
