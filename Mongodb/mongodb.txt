@@ -46,7 +46,7 @@ delete            remove
 
 ### local setup for mongodb ###
 
->> window
+>> windows
 1. download and install mongodb
 2. create a folder by name "Data" in C drive
 3. create a folder by name "db"
@@ -55,5 +55,14 @@ delete            remove
 1. download and install mongodb
 2. go to root(-)
 3. mkdir Data/db
+
+### step to start mongodb server ###
+
+>> windows
+1. open cmd
+2.go inside cd C:\Program Files\MongoDB\Server\5.0\bin
+3. type mongodb
+4. it will start the server on a default port no. 27017
+5. dont close
 
 
