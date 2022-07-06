@@ -42,3 +42,18 @@ select            find
 insert/create     insert
 UPDATE            UPDATE
 delete            remove
+
+
+### local setup for mongodb ###
+
+>> window
+1. download and install mongodb
+2. create a folder by name "Data" in C drive
+3. create a folder by name "db"
+
+>> Mac/Linux
+1. download and install mongodb
+2. go to root(-)
+3. mkdir Data/db
+
+
