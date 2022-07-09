@@ -63,6 +63,29 @@ delete            remove
 2.go inside cd C:\Program Files\MongoDB\Server\5.0\bin
 3. type mongodb
 4. it will start the server on a default port no. 27017
-5. dont close
+5. dont close the cmd till you are using mongodb
+
+>> Mac/Linux
+1. open cmd
+2. on cmd write mongod --dbpath Data/db
+3. it will start the server on a default port no. 27017
+4. dont close the cmd till you are using mongodb
+
+### setup for client ###
+
+>> windows
+1. open cmd
+2. go inside cd C:\Program Files\MongoDB\Server\5.0\bin
+3. type mongo
+4. it will start mongo client
+
+>> Mac/Linux
+1. open cmd
+2. type mongo
+3. it will start mongo client
+
+// cloud setup
+1. select Atlas
+2. signup with mongodb
 
 
