@@ -1,0 +1,13 @@
+* every command should run on mongo client 
+
+* Commands
+1. to see all the databases
+>> show dbs
+
+2. create database/ use any database
+>> use database_name    use service_db
+
+3. to see the collection in database
+>> show collections
+
+
