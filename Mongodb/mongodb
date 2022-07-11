@@ -10,4 +10,10 @@
 3. to see the collection in database
 >> show collections
 
+4. to create collection
+>> db.info.insert({"dependencies": {"chalk": "^5.0.1","cors": "^2.8.5","dotenv": "^16.0.1","express": "^4.18.1","mongodb": "^4.7.0","morgan": "^1.10.0"})
+
+5. to see data from the collection
+>> db user find()
+
 
